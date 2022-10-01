@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="umaine.css">
+    <title>Document</title>
+</head>
+<body>
+
+     <!--header-->
+
+    <div class="header">
+        <div class="header_container1">
+
+        </div>
+
+        <div class="header_container2">
+          <ul>
+            <li><a href="#">Apply to UMaine</a></li>
+            <li><a href="#">A-Z</a></li>
+            <li><a href="#">Calendar</a></li>
+            <li><a href="#">Give</a></li>
+            <li><a href="#">Map</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Carrers</a></li>
+            <li><a href="#">myUMaine</a></li>
+          </ul>
+        </div>
+    </div>
+
+
+    <!-- navbar-->
+     <div class="navbar">
+
+          <div class="nav1">
+            <img src="logo.png">
+          </div>
+
+         <div class="nav2">
+                <ul>
+                   <li> <a href="#">Admissions</a> </li>
+                   <li> <a href="#">Campus Life</a> </li>
+                   <li> <a href="#">Academics</a> </li>
+                   <li> <a href="#"> Research</a> </li>
+                   <li> <a href="#"> About Us</a> </li>
+                   <input type="search" placeholder="Search..." id="search">
+                </ul>
+         </div>
+
+         <div class="nav3">
+              <center> <a href="#">Quicklinks</a></center>
+         </div>
+
+     </div>   
+
+        <!--Section 1-->
+
+         <!-- Section 1 part1 -->
+      <div class="section1">
+
+         <div class="section1_1">
+             <h1>We are UMaine</h1>
+         
+             <h3 style="text-shadow:2px 2px 10px black">We define tomorrow</h3>
+             <br>
+             <button> <a style="color:white; text-decoration: none;" href="#">Learn More</a> </button>
+         </div>
+
+        <!--Section 1 part2 -->
+         <div class="section1_2">
+
+             <div id="button1">
+                <button style="padding:18px 50px 18px 50px; background-color: white;"><h2>Apply now</h2></button>
+            </div>
+
+             <div id="button2">
+                <button style="padding:25px 50px 25px 50px; background-color: white;"><h2>R1 top-tier <br>research</h2></button>
+             </div>
+
+            <div id="button3">
+                <button style="padding:18px 50px 18px 50px; background-color: white;"><h2>Visit campus</h2></button>
+            </div>
+
+          </div>
+
+      </div>
+
+      <!-- Section 2-->
+
+      <section class="section2">
+        <div class="section2_div2">
+         <!-- section2 part 1-->
+            <div class="section2_part1">
+                 <p style="margin:200px 5px 10px 80px;">A photo of increasingly tall stacks of coins with 
+                 <br>blue figures on top</p>
+            
+                 <h3 style="color:rgb(25, 54, 112); margin:0px 5px 10px 80px; font-size: x-large;">Minimum wage increases positively<br>
+                  impacts women’s health, negatively<br>
+                  impact men’s health
+                 </h3>
+
+               <a style="color:#005580; margin: 23px 0px 0px 80px; font-size: 20px; text-decoration: none; display: inline-block;" href="#">Learn more</a> 
+           </div>
+        <!-- section2 part 2-->
+            <div class="section2_part2">
+               <center><p style="margin-top:100px; font-size: 45px; color:rgb(25, 54, 112);"><b> Latest news</b></p></center>
+               <p style="margin:45px 0px 0px 40px; font-size: 20px;">An illustration of a college campus</p>  
+               <h3 style="color:rgb(25, 54, 112); margin:5px 0px 0px 40px; font-size: x-large;">UMaine study examines readiness for hazing prevention on college campuses</h3>
+               <a style="color:#005580; margin: 30px 0px 0px 45px; font-size: 20px; text-decoration: none; display: inline-block;" href="#">Learn more</a> <br>
+               <button style="padding:15px 52px 15px 52px; margin:55px 0px 0px 105px ;background-color:rgb(25, 73, 112);" >
+                   <a href="#" style="color:white; text-decoration: none; font-size: 20px;">More news</a>
+               </button>
+            </div>
+
+         <!-- section2 part 1-->
+            <div class="section2_part3">
+                <p style="margin:200px 0px 00px 40px; font-size: 20px;">Photo of a man holding a fish while standing in a <br> pond </p>
+                <h3 style="color:rgb(25, 54, 112); margin:5px 0px 0px 40px; font-size: x-large;">UMaine, UNH researchers to study how foraging adaptations affect Arctic charr resilience or vulnerability to climate change</h3>
+                <a style="color:#005580; margin: 30px 0px 0px 45px; font-size: 20px; text-decoration: none; display: inline-block;" href="#">Learn more</a> <br>
+            </div>
+        </div>
+
+      </section>
+
+      
+      <!-- section3-->
+
+    <section class="section3">
+       <div class="section3_container">
+        <div class="section3_part1">
+            <h1 style="color: rgb(25, 54, 112); display: inline-block; font-size:30px; margin: 60px 0px 0px 170px;">NECHE evaluation visit</h1>
+            <p style="font-size:20px; margin: 15px 0px 0px 220px;">Notice of public comment</p>
+            <button style="padding:15px 52px 15px 52px; margin:20px 0px 0px 220px ;background-color:rgb(25, 73, 112);" >
+                 <a style="color:white;  text-decoration: none; font-size: 20px;" href="#">Learn More</a> </button>
+        </div>
+
+        <div class="section3_part2">
+            <h1 style="color: rgb(25, 54, 112); display: inline-block; font-size:30px; margin: 40px 0px 0px 210px;">NECHE self-study</h1>  
+            <br>
+            <button style="padding:15px 52px 15px 52px; margin:20px 0px 0px 220px ;background-color:rgb(25, 73, 112);" > 
+                 <a style="color:white; text-decoration: none; font-size: 20px;" href="#">Read report</a> </button>
+        </div>
+    </div>
+
+    </section>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,523 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header {
+    width: 100%;
+    height: 30px;
+    display: flex;
+
+}
+
+.header_container1 {
+    width: 60%;
+    background-color: darkolivegreen;
+
+}
+
+.header_container2 {
+    width: 40%;
+    background-color: darkolivegreen;
+
+
+}
+
+.header_container2 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.header_container2 li {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 8px;
+    padding-left: 3px;
+}
+
+.header_container2 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.header_container2 a:hover::after {
+    width: 100%;
+}
+
+.header_container2 a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+
+
+
+
+/* navbar*/
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+
+}
+
+.nav1 {
+    width: 13%;
+    height: 100%;
+}
+
+.nav1 img {
+    height: 100%;
+    width: 100%;
+    padding-top: 8px;
+}
+
+.nav2 {
+    width: 74%;
+    height: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+  .nav2:hover .dropdown-content {
+    display: block;
+  }
+
+.nav2 li {
+    display: inline-block;
+    margin-top: 1px;
+    padding: 19px;
+
+}
+
+.nav2 a {
+    color: darkolivegreen;
+    text-decoration: none;
+    font-size: larger;
+}
+
+#search {
+    float: right;
+    padding: 15px;
+    border: none;
+}
+
+
+.nav2 a:hover::after {
+    width: 100%;
+}
+
+.nav2 a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: darkolivegreen;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+
+
+
+.nav3 {
+    background-color: darkolivegreen;
+    width: 13%;
+}
+
+.nav3 a {
+    color: white;
+    display: inline-block;
+    font-size: larger;
+    padding: 12px 16px 12px;
+    text-decoration: none;
+}
+
+/* background image  Section1 */
+.section1 {
+    width: 100%;
+    background-image: url('Mall-Summer-header.jpg');
+    height: 1100px;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1px solid white;
+    margin-bottom: 20px;
+}
+
+.section1_1 {
+    margin-left: 240px;
+    margin-top: 600px;
+    color: white;
+    font-size: xx-large;
+    display: inline-block;
+
+}
+
+.section1_1 button {
+
+    padding: 13px 50px 13px 35px;
+    font-size: 20px;
+    background-color: rgb(25, 73, 112);
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+.section1_2 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(25, 54, 112);
+    display: flex;
+}
+
+.section1_2 button h2 {
+    color: rgb(25, 50, 112);
+    background-color: white;
+}
+
+#button1 {
+    margin-top: 50px;
+    margin-left: 370px;
+}
+
+#button2 {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#button3 {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.section2_container {
+    width: 100%;
+    height: 880px;
+    display: flex;
+    overflow: hidden;
+    margin: 35px 0px 0px 00px;
+}
+
+.section2_container1 {
+    width: 33%;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 18px;
+    color: rgb(14, 67, 110);
+    border: 4 px solid red;
+    padding-left: 70px;
+}
+
+.section2_container2 {
+    width: 33%;
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(14, 67, 110);
+}
+
+.section2_container3 {
+    width: 34%;
+    display: inline-block;
+    font-size: 18px;
+    color: rgb(14, 67, 110);
+}
+
+/* Section3_Container----   */
+
+.section3_container {
+    width: 97%;
+    height: 420px;
+    display: flex;
+    margin: 0px 0px 60px 30px;
+
+}
+
+.section3_container1 {
+    width: 48%;
+    background-color: rgb(183, 218, 240);
+    display: inline-block;
+
+}
+
+.section3_container2 {
+    width: 50%;
+
+}
+
+.section3_container2 img {
+    width: 100%;
+    height: 420px;
+
+}
+
+/* Section_4_container--- */
+
+.section4_container {
+    background-color: rgb(33, 47, 126);
+    width: 100%;
+    height: 1350px;
+    margin-top: 80px;
+}
+
+.section4_container img {
+    width: 62%;
+    height: 1050px;
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
+/* Section5_container---- */
+
+.section5_container {
+    width: 97%;
+    background-image: url('dance.jpg');
+    height: 500px;
+    background-size: 80%;
+    margin: 90px 20px 40px 20px;
+    overflow: hidden;
+}
+
+/* Section6_container ------  */
+
+.section6_container {
+    width: 100%;
+    height: 800px;
+    margin-top: 120px;
+}
+
+.section6_container img {
+    width: 81%;
+    height: 490px;
+}
+
+/* Section7_container ----  */
+
+.section7_container {
+    width: 100%;
+    height: 1160px;
+    background-color: rgb(25, 73, 112);
+}
+
+/* Section8_container -----  */
+
+.section8_container {
+    width: 100%;
+    height: 480px;
+}
+
+/* Section9_container ----  */
+
+.section9_container {
+    width: 100%;
+    height: 650px;
+    background-image: url('city.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    border: 1px solid white;
+}
+
+.section9_container1 {
+    width: 73%;
+    height: 500px;
+    background-color: white;
+    margin: 100px 0px 0px 160px;
+    display: flex;
+}
+
+.section9_container1_part1 {
+    width: 50%;
+    height: 100%;
+}
+
+.section9_container1_part2 {
+    width: 50%;
+    height: 100%;
+    padding: 50px 0px 0px 30px;
+}
+
+/* Section10_container ------  */
+
+.section10_container {
+    width: 100%;
+    height: 350px;
+}
+
+.section10_container1 {
+    width: 100%;
+    height: 260px;
+}
+
+.section10_container1_part1 {
+    width: 100%;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.section10_container1 button {
+    background-color: white;
+    border: 2px solid rgb(25, 73, 112);
+
+}
+
+.section10_container1 a {
+    font-size: 18px;
+    color: rgb(25, 73, 112);
+    text-decoration: none;
+
+}
+
+.section10_container1_part2 {
+    width: 100%;
+    height: 70px;
+}
+
+/* Section11_container ----  */
+
+.section11_container {
+    width: 100%;
+    height: 750px;
+}
+
+.section11_container img {
+    width: 81%;
+    height: 450px;
+}
+
+/* Section12_Container -----  */
+
+.section12_container {
+    width: 100%;
+    height: 640px;
+    background-image: url('field.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+}
+
+.section12_container_part1 {
+    width: 70%;
+    height: 280px;
+    background-color: white;
+    margin: 175px 0px 0px 165px;
+}
+
+/* Section13_Container -------  */
+
+.section13_container {
+    margin-top: 160px;
+    width: 100%;
+    height: 1700px;
+    background-color: rgb(25, 73, 112);
+}
+
+.section13_container_part1 {
+    width: 75%;
+    height: 1620px;
+    background-color: rgb(107, 182, 229);
+    margin-bottom: 0px;
+}
+
+.section13_container_part1_child1 {
+    width: 92%;
+    height: 600px;
+    overflow: hidden;
+
+}
+
+.section13_container_part1_child1 img {
+    width: 110%;
+
+}
+
+.section13_container_part1_child2 {
+    width: 92%;
+    height: 300px;
+    background-color: white;
+}
+
+.section13_container_part1_child3 {
+    width: 92%;
+    overflow: hidden;
+    height: 360px;
+}
+
+.section13_container_part1_child3 img {
+    width: 100%;
+    height: 120%;
+}
+
+.section13_container_part1_child4 {
+    width: 92%;
+    height: 300px;
+    background-color: white;
+}
+
+/* Footer ----  */
+
+.footer1 {
+    width: 100%;
+    height: 90px;
+}
+
+.footer1 a{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.footer2 {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(12, 9, 9, 0.953);
+}
+
+.footer2 a {
+    display: inline-block;
+    padding: 38px 5px 20px 15px;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer2 p{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+}
+
+.footer2 a:hover::after {
+    width: 100%;
+}
+
+.footer2 a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(25, 73, 112);
+   
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
